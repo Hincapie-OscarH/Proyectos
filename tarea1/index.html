@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--importaciones-->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+    <script src='main.js'></script>
+    <link rel='icon' type='image.png' media='screen' href='./images/nav-logo.png'>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <div class="container">
+        <nav>
+            <!--logo-->
+            <div class="nav-logo-container">
+                <a href="./index.html">
+                    <img class="nav-logo" src="./images/nav-logo.png" alt="logo">
+                </a>    
+            </div>
+            <!--opciones-->
+            <ul class="nav-link">
+                <li>
+                    <a href="item1">
+                        <b>Contáctenos</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="item2">
+                        <b>Portafolio</b>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--barra de navegación final-->
+   <!--Main section-->
+    <section class="character-section" id="character-section">
+        <!--Informacion personajes-->
+        <div class="characters-content"> <!--contenedor componente-->
+            <div class="flex-container"> <!--padre del flexbox-->
+                <!--tarjeta personaje 1-->
+                <div class="card-character"> <!--contenedor tarjeta-->
+                    <div class="img-container" style="background-image: url(./images/rick_sanchez.png);">
+                    </div>
+                        <div class="info-character">
+                         <!-- Formulario-->
+                        <h1>Contáctenos</h1>
+                        <br>
+                        <br>
+                        <div class="div-general">
+                            <div class="uno">
+                                Nombres<div>
+                                <label for="Nombres"></label>
+                                <input class="sub" id="nombres" type="text" placeholder="Nombres" required>
+                                </div>
+                                <br>
+                            Apellidos<div>
+                                     <label for="apellidos"></label>
+                            <input class="sub" type="text" placeholder="Apellidos" required>
+                                </div>
+                            </div>
+                            <br>
+                            Teléfono<div>
+                            <label for="telefono"></label>
+                            <input class="sub" type="number" placeholder="Teléfono" required>
+                            </div>
+                            <br>
+                            Dirección<div>
+                            <label for="direccion"></label>
+                            <input class="sub" type="text" placeholder="Dirección" required>
+                            </div>
+                            <br>
+                            E-mail<div>
+                            <label for="e-mail"></label>
+                            <input class="sub" type="email" placeholder="E-mail" required>
+                            </div>
+                            <br>
+                            Solicitud<div>
+                            <label for="solicitud"></label>
+                            <input class="sub" type="text" placeholder="Descripción">
+                            </div>
+                            <br>
+                            <!--Botones-->
+                            <div class="div-boton">
+                                <button class="boton1">Cancelar</button>
+                                <button class="boton2">Enviar</button>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                <!--info final-->
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <b>Creado por Oscar Hincapié</b>
+    </footer>
+</body>
+</html>
